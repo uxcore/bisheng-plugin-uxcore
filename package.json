@@ -1,0 +1,39 @@
+{
+  "name": "bisheng-plugin-uxcore",
+  "version": "1.0.0",
+  "description": "bisheng plugin for uxcore doc site",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ]
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxcore/bisheng-plugin-uxcore.git"
+  },
+  "keywords": [
+    "bisheng",
+    "uxcore"
+  ],
+  "author": "vincent.bian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uxcore/bisheng-plugin-uxcore/issues"
+  },
+  "homepage": "https://github.com/uxcore/bisheng-plugin-uxcore#readme",
+  "dependencies": {
+    "jsonml.js": "^0.1.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "jsonml-to-react-component": "^0.2.0"
+  }
+}
